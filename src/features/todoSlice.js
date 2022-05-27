@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = [
-  { id: '1', title: 'moazam', task: 'Hello', priority: 'High' },
-  { id: '2', title: 'kashif', task: 'World', priority: 'Medium' },
+  { id: '1', title: 'Salman', task: 'Submit Task Today', priority: 'High' },
+  { id: '2', title: 'Kashif', task: 'Make New UI', priority: 'Medium' },
 ];
 
 export const todoSlice = createSlice({

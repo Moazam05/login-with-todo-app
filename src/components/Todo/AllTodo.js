@@ -34,7 +34,7 @@ const AllTodo = () => {
                     <input
                       type='text'
                       className='form-control mb-4'
-                      placeholder='Search Tod'
+                      placeholder='Search Todo'
                       onChange={(e) => setSearchTodo(e.target.value)}
                     />
                   </div>
