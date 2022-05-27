@@ -89,7 +89,7 @@ const Login = () => {
                     </div>
                     <div className='text-center pt-1 mb-5 pb-1'>
                       <button
-                        style={{ width: '100%' }}
+                        style={{ width: '100%', height: '38px' }}
                         className='btn btn-primary btn-block fa-lg gradient-custom-2 mb-3'
                         type='submit'
                       >
