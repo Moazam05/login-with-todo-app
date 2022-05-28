@@ -63,19 +63,21 @@ const AllTodo = () => {
                           const { title, task, priority } = todo;
                           return (
                             <tr className='fw-normal' key={index}>
-                              <th
-                                style={{
-                                  display: 'flex',
-                                  alignItems: 'center',
-                                  textAlign: 'center',
-                                }}
-                              >
-                                <div className='avatar-circle'>
-                                  <span className='initials'>
-                                    {title.charAt(0).toUpperCase()}
-                                  </span>
+                              <th>
+                                <div
+                                  style={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    textAlign: 'center',
+                                  }}
+                                >
+                                  <div className='avatar-circle'>
+                                    <span className='initials'>
+                                      {title.charAt(0).toUpperCase()}
+                                    </span>
+                                  </div>
+                                  <span className='ms-2'>{title}</span>
                                 </div>
-                                <span className='ms-2'>{title}</span>
                               </th>
                               <td className='align-middle'>
                                 <span>{task}</span>
