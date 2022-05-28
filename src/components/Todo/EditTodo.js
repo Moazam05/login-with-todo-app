@@ -62,7 +62,7 @@ const EditTodo = () => {
                       type='text'
                       id='defaultContactFormName'
                       className='form-control mb-4'
-                      placeholder='Title'
+                      placeholder='Team Member'
                       value={updateTitle}
                       onChange={(e) => setUpdateTitle(e.target.value)}
                     />

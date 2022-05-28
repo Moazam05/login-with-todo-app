@@ -58,7 +58,7 @@ const CreateTodo = () => {
                       type='text'
                       id='defaultContactFormName'
                       className='form-control mb-4'
-                      placeholder='Title'
+                      placeholder='Team Member'
                       value={title}
                       onChange={(e) => setTitle(e.target.value)}
                     />
