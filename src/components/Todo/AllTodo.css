@@ -25,3 +25,23 @@
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
+
+.avatar-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #7ac943;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.initials {
+  position: relative;
+  bottom: 8px;
+  font-size: 15px; /* 50% of parent */
+  line-height: 50px; /* 50% of parent */
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}

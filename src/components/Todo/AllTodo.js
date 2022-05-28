@@ -63,16 +63,18 @@ const AllTodo = () => {
                           const { title, task, priority } = todo;
                           return (
                             <tr className='fw-normal' key={index}>
-                              <th>
-                                <img
-                                  src='https://random.imagecdn.app/500/150'
-                                  alt='avatar 1'
-                                  style={{
-                                    width: '30px',
-                                    height: '30px',
-                                    borderRadius: '50%',
-                                  }}
-                                />
+                              <th
+                                style={{
+                                  display: 'flex',
+                                  alignItems: 'center',
+                                  textAlign: 'center',
+                                }}
+                              >
+                                <div className='avatar-circle'>
+                                  <span className='initials'>
+                                    {title.charAt(0).toUpperCase()}
+                                  </span>
+                                </div>
                                 <span className='ms-2'>{title}</span>
                               </th>
                               <td className='align-middle'>
